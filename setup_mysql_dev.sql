@@ -1,5 +1,5 @@
--- this script prepares a MySQL server for the project
--- create project developement database with the name : hbnb_dev_db
+-- this script prepares a MySQL server for the Airbnb clone
+-- creates the database.
 CREATE DATABASE IF NOT EXISTS hbnb_dev_db;
 -- creating new user with password
 CREATE USER IF NOT EXISTS 'hbnb_dev'@'localhost' IDENTIFIED BY 'hbnb_dev_pwd';
