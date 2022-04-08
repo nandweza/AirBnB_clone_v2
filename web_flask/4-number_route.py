@@ -33,6 +33,7 @@ def python(text):
     new = text.replace('_', ' ')
     return 'Python %s' % new
 
+
 @app.route('/number/<int:n>', strict_slashes=False)
 def number(n):
     """displays n is a number only if n is an integer
