@@ -4,6 +4,7 @@
 from flask import Flask
 app = Flask(__name__)
 
+
 @app.route('/', strict_slashes=False)
 def hello_hbnb():
     """displays a string at / route."""
@@ -22,6 +23,7 @@ def c_is_fun(text):
     of the text variable at /c/<text> route."""
     new = text.replace('_', ' ')
     return 'C %s' % new
+
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
